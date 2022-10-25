@@ -40,7 +40,7 @@ public class TimeRange implements Comparable<TimeRange>{
 	
 	@Override
 	public String toString() {
-		return this.start + ":" + this.end;
+		return this.start + "-" + this.end;
 	}
 
 }
